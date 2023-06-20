@@ -1,4 +1,8 @@
-import './vendor/focus-visible.js';
 import $ from 'jquery';
 window.$ = window.jQuery = $;
-import 'slick-carousel'
+import './vendor/focus-visible.js';
+import './vendor/jquery.formstyler.min';
+import 'slick-carousel';
+import 'ion-rangeslider';
+
+

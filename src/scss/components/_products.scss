@@ -1,6 +1,11 @@
 .product-item__wrapper {
   position: relative;
   width: 271px;
+  transition: all .3s;
+
+  &.product-item__wrapper--list {
+    width: 100%;
+  }
 }
 
 .products__title {
@@ -19,6 +24,7 @@
   padding: 52px 20px 31px;
   min-height: 400px;
   transition: all .3s;
+  width: 100%;
 
   &:hover {
     box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
@@ -38,6 +44,8 @@
 .product-item__title {
   font-weight: normal;
   padding: 14px 0 25px;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .product-item__favorite {

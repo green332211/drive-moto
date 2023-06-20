@@ -1,0 +1,3 @@
+// $(function () {
+//   $('.rate-yo').rateYo();
+// });
