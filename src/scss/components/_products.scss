@@ -180,6 +180,20 @@
   }
 }
 
+.product-slider {
+  .slick-dots {
+    bottom: -30px;
+
+    & button {
+      background-color: var(--grey-light-color);
+    }
+
+    & .slick-active button {
+      background-color: var(--blue-color );
+    }
+  }
+}
+
 .product-slider__slider-btnprev {
   left: -40px;
 }

@@ -34,6 +34,10 @@
   left: 0;
   right: 0;
   text-align: center;
+
+  & .slick-active button {
+    background-color: var(--light-color);
+  }
 }
 
 .slick-dots li {
@@ -51,6 +55,7 @@
   border-radius: 50%;
   background-color: transparent;
 }
+
 
 .slick-active li button {
   background-color: var(--light-color);
