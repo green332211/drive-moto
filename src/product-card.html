@@ -4,12 +4,13 @@
 @include('partials/head.html')
 
 <body class="page__body">
-  <div class="site-container">
-    @include('partials/header.html')
-    <main class="main">
-      <div class="breadcrumbs">
-        <div class="container">
-          <ul class="breadcrumbs__list">
+<div class="site-container">
+  @include('partials/header.html')
+  <main class="main">
+    <div class="breadcrumbs">
+      <div class="container">
+        <div class="breadcrumbs__inner">
+          <ul class="breadcrumbs__list mobile-overflow">
             <li class="breadcrumbs__list-item">
               <a href="#">
                 Главная
@@ -28,10 +29,11 @@
           </ul>
         </div>
       </div>
+    </div>
 
-      @include('partials/product-card.html')
-    </main>
-    @include('partials/footer.html')
-  </div>
+    @include('partials/product-card.html')
+  </main>
+  @include('partials/footer.html')
+</div>
 </body>
 </html>

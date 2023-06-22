@@ -28,4 +28,8 @@ $(function () {
     $('.catalog__filter-btn--grid').removeClass('catalog__filter-button--active');
     $('.product-item__wrapper').addClass('product-item__wrapper--list');
   });
+
+  $('.aside__btn').on('click', function () {
+    $(this).next().slideToggle();
+  });
 })

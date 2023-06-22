@@ -130,6 +130,10 @@
   border: none;
 }
 
+.product-card__btn-mobile {
+  display: none;
+}
+
 .product-card__buttons {
   a + a {
     margin-left: 30px;

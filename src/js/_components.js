@@ -4,3 +4,4 @@ import './components/products';
 import './components/catalog';
 import './components/product-card';
 import './components/header';
+import './components/footer';
