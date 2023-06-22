@@ -326,6 +326,10 @@
   .footer__top-drop--active::after {
     transform: rotate(180deg);
   }
+
+  .footer__top-drop {
+    pointer-events: auto;
+  }
 }
 
 @media (max-width: 440px) {

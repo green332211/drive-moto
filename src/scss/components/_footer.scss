@@ -79,6 +79,10 @@
   width: 250px;
 }
 
+.footer__top-drop {
+  pointer-events: none;
+}
+
 .social-list {
   display: flex;
   align-items: center;
